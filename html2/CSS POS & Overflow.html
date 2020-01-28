@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title> CSS POSITION & OVERFLOW</title>
+  </head>
+  <body bgcolor="black">
+    <style media="screen">
+      .container{width:100%; height:500px; overflow:auto; margin-left:0 auto;}
+      .static{position:static; border:2px solid green;color:darkgreen;}
+      .relative{position:relative; border:2px solid red; left:20px; bottom:o;color:maroon;}
+      .absolute{position:absolute; border:2px solid blue; left:20px; bottom:40px;color:darkblue;}
+      .fixed{position:fixed; border:2px solid white; bottom:0; right:0;}
+      .sticky{position:sticky;border:2px solid yellow; top:0; left:20px; background:darkblue; color:white;}
+    </style>
+    <div class="container">
+      <p class="sticky">Ini adalah contoh dari posisi <b>sticky</b></p>
+      <p class="static">Ini adalah contoh dari posisi <b>static</b><br>Ini adalah contoh dari posisi <b>static</b>
+        Ini adalah contoh dari posisi <b>static</b>Ini adalah contoh dari posisi <b>static</b>Ini adalah contoh dari posisi <b>static</b>
+        Ini adalah contoh dari posisi <b>static</b>Ini adalah contoh dari posisi <b>static</b>Ini adalah contoh dari posisi <b>static</b>
+      </p>
+      <p class="relative">Ini adalah contoh dari posisi <b>relative</b><br>Ini adalah contoh dari posisi <b>relative</b>
+        Ini adalah contoh dari posisi <b>relative</b>Ini adalah contoh dari posisi <b>relative</b>Ini adalah contoh dari posisi <b>relative</b>
+        Ini adalah contoh dari posisi <b>relative</b>Ini adalah contoh dari posisi <b>relative</b>Ini adalah contoh dari posisi <b>relative</b>
+      </p>
+      <p class="absolute">Ini adalah contoh dari posisi <b>absolute</b><br>Ini adalah contoh dari posisi <b>absolute</b>
+        Ini adalah contoh dari posisi <b>absolute</b>Ini adalah contoh dari posisi <b>absolute</b>Ini adalah contoh dari posisi <b>absolute</b>
+        Ini adalah contoh dari posisi <b>absolute</b>Ini adalah contoh dari posisi <b>absolute</b>Ini adalah contoh dari posisi <b>absolute</b>
+      </p>
+    </div>
+  </body>
+</html>
